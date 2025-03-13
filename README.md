@@ -121,7 +121,7 @@ The rental table was also updated to include the return “status” of the rent
 ![](Overdue_rentals_Query.png)
 
 
-*(Please Note: I have attached the SQL file containing the written Queries [here](SQL_Project_Okonkwo_Chiamaka_I..SQL))*
+*(Please Note: I have attached the SQL file containing the written Queries [here](SQL_Project_Okonkwo_Chiamaka_I..sql))*
 
 ---
 ## Data Analysis and Insights:
