@@ -39,7 +39,7 @@ The dataset used for this project was a PostgreSQL database provided by my Tutor
 
 Primary keys are identified by a yellow key icon in the schema diagram. It is also denoted by [PK] in the column header of a table. A primary key is generally used to establish relationships between tables, often in conjunction with foreign keys.
 
-**Foreign key**: A column (or group of columns) in one table that is used to create a connection or relationship to a primary key or unique key in another table is called a foreign key. In other words, foreign keys establish relationships between tables by referencing primary keys of other tables. It is usually denoted by a grey colored key symbol.
+**Foreign key**: A column (or group of columns) in one table that is used to create a connection or relationship to a primary key or unique key in another table is called a foreign key. In other words, foreign keys establish relationships between tables by referencing the primary keys of other tables. It is usually denoted by a grey colored key symbol.
 A value in the foreign key column must either exist in the referenced column of the other table or be NULL if permitted, in order for the foreign key to maintain referential integrity between the two tables.
 
 ### Relationship between table
@@ -102,7 +102,7 @@ The top 3 categories were Sports, Foreign and Family with 74, 73 and 69 films re
 
 ## Data Manipulation and Transformation:
 
-To support further analysis, data manipulation and transformation were performed and the results for the following obtained:
+To support further analysis, data manipulation and transformation were performed and the results for the following were obtained:
 
 * Average rental duration for each film.
 
@@ -119,6 +119,9 @@ To support further analysis, data manipulation and transformation were performed
 The rental table was also updated to include the return “status” of the rentals (overdue) based on the return date and rental duration. 
 
 ![](Overdue_rentals_Query.png)
+
+
+*(Please Note: I have attached the SQL file containing the written Queries [here](SQL_Project_Okonkwo_Chiamaka_I..SQL))*
 
 ---
 ## Data Analysis and Insights:
