@@ -1,5 +1,5 @@
 # Video-Rental-Store-Database-Analysis
-An Analysis to optimise the performance of the DVD rental store through targeted marketing campaigns, operational improvements, customer loyalty programs, and effective inventory management.
+An Analysis to gain insights into a DVD rental store's operations and customer behaviour and to improve the performance of the store. 
 
 ---
 *(Disclaimer: This is a fictitious company. The picture below is gotten from google)*
@@ -8,7 +8,7 @@ An Analysis to optimise the performance of the DVD rental store through targeted
 
 ## Introduction:
 
-In order to gain insights into a DVD rental store's operations and customer behavior the database of the store was analysed using PostgreSQL. 
+The database of the store was analysed using PostgreSQL. 
 The results from the analysis will show the following information:
 * Total number of films in each category
 * Top 5 customers who have rented the most films.
@@ -20,7 +20,7 @@ In addition, actionable insights and recommendations will be generated based on 
 ---
 ## Objectives:
 
-This project will focus on four (4) main goal which include:
+This project will focus on four (4) main goals which include:
 + Analyze the database schema to understand the relationships between different tables.
 + Answer specific business questions by retrieving relevant data using SQL queries.
 + Perform data manipulation and transformation to prepare the data for analysis.
@@ -29,7 +29,7 @@ This project will focus on four (4) main goal which include:
 ---
 ## Data Source
 
-The datasets used for this project was a PostgreSQL database provided by my Tutor from the Tech Institute: Dahel Techies. PgAdmin was used to run the queries necessary to analyze the datasets.
+The dataset used for this project was a PostgreSQL database provided by my Tutor from the Tech Institute: Dahel Techies. PgAdmin was used to run the queries necessary to analyze the datasets.
 
 ---
 ## Database Schema Analysis:
@@ -63,7 +63,7 @@ The Entity Relationship (ER) Diagram below gives a pictorial representation of t
 Several structured queries were written to retrieve information from the database using the following:
 
 * Aggregate functions to calculate totals and averages.
-* Joins to link relevant tables so as to gather information.
+* Joins to link relevant tables to gather information.
 * Sub-queries to enable detailed breakdown of data.
 
 ![](SQL_View.png)
@@ -135,7 +135,7 @@ The DVD rental shop offers films across 16 categories. Films in the categories o
 
 **Rental trends**
 
-There is significantly low number of rentals in the month of May with a sharp increase in July and a slight drop in the subsequent month. This indicates that rentals peaked during holiday seasons (summer months). Also, weekdays showed lower rentals compared to weekends. *(See attached SQL document for the PostgreSQL query)*
+There is a significantly low number of rentals in May with a sharp increase in July and a slight drop in the subsequent month. This indicates that rentals peaked during the holiday seasons (summer months). Also, weekdays showed lower rentals compared to weekends. *(See attached SQL document for the PostgreSQL query)*
 
 **Top 5 Customers**
 
@@ -154,11 +154,12 @@ Store 2 generated slightly higher revenues than Store 1. The small revenue gap i
 
 ## Recommendations:
 
-Based on the analysis, there are several recommendations that would be useful to improve the general performance of the DVD rental store.
+Based on the analysis, the general performance of the DVD rental store could be optimized through targeted marketing campaigns, operational improvements, customer loyalty programs, and effective inventory management.
+
 
 1.	**Inventory Management**
 
-<ins>Increase Stock of Popular Categories</ins>: Focus on increasing inventory for Sport, Animation, Action, Sci-Fi, and Family genres.
+<ins>Increase Stock of Popular Categories</ins>: Focus on increasing inventory for Sports, Animation, Action, Sci-Fi, and Family genres.
 
 <ins>Seasonal Inventory Adjustments</ins>: Stock more films ahead of peak rental seasons (festive periods, summer holidays).
 
@@ -166,7 +167,7 @@ Based on the analysis, there are several recommendations that would be useful to
 
 <ins>Loyalty Program for Top Customers</ins>: Reward high-performing customers with discounts or free rentals to encourage more patronage.
 
-<ins>Targeted Marketing</ins>: Use insights to tailor promotional offers to specific customer demographic. (e.g. families, students)
+<ins>Targeted Marketing</ins>: Use insights to tailor promotional offers to specific customer demographics. (e.g. families, students)
 
 3.	Operational Improvements
 
